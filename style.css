@@ -1,0 +1,228 @@
+.container {
+    width: 100%;
+}
+.innercontainer {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+li{
+    list-style-type: none;
+    font-family: Mulish;
+    font-size: 18px;
+    
+
+}
+li:hover{
+    color: #1F1534;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+
+.heroText{
+    width: 50%;
+    margin-top: 3rem;
+
+}
+
+.heroimage{
+    width: 50%;
+}
+
+.heroimage img{
+    width: 100%;
+}
+
+.heroText h2{
+    width: 90%;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.heroText p{
+    font-family: Mulish;
+    font-size: 17px;
+    width: 80%;
+    color: #7D7987;
+    font-weight: 300;
+
+}
+
+.heroText button{
+    font-family: Mulish;
+    font-size: 18px;
+    border-radius: 55px;
+    background:#458FF6;
+    color: white;
+    padding: .5rem 2rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(7, 7, 105);
+
+}
+
+
+
+/* SERVICES  */
+.Services{
+    position: relative;
+}
+
+.topservices{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.topservices hr{
+    width: 3rem;
+    border: solid 1px black;
+}
+
+/* CARD A */
+
+.cardA{
+    display: flex;
+    justify-content: space-between;
+ margin: auto;
+    margin-top: 5rem;
+    width: 90%;
+    
+}
+.cardB{
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+
+}
+.cardtext{
+width: 230px;
+/* background-color: #458FF6; */
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 3rem 2rem;
+border-radius: 1em;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #7D7987;
+
+}
+.cardtext h3{
+    color: #1F1534;
+    
+}
+
+/* Button */
+.learnmorebtn{
+    margin: auto;
+    width: 160px;
+    height: 40px;
+}
+.learn{
+    width: 160px;
+    height: 40px;
+    border:  solid 1px #458FF6;
+    color: #458FF6;
+    margin-top: 5em;
+    border-radius: 20px;
+}
+
+.background img{
+    position: absolute;
+    z-index: -1;
+    margin-left: -9rem;
+    margin-top: 8rem;
+}
+
+.healthcare{
+    margin-top: 8rem;
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+}
+
+.healthcareimg img{
+width: 100%;
+}
+
+.healthtxt{
+    width: 40%;
+}
+
+.healthcareimg{
+    width: 50%;
+}
+
+.healthtxt h2{
+font-family: Mulish;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+font-style: normal;
+color: black;
+}
+
+.healthtxt p{
+font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+font-style: normal;
+color: #7D7987;
+width: 83%;
+
+}
+
+.horizontal{
+width: 10%;
+}
+
+.horizontal hr{
+width: 56px;
+height: 2px;
+border-radius: 10px;
+color: black;
+background: black;
+}
+
+.healthtxt button{
+    width: 160px;
+    height: 40px;
+    border:  solid 1px #458FF6;
+    color: #458FF6;
+    /* margin-top: 5em; */
+    border-radius: 20px;
+}
+
+.download{
+    margin-top: 8rem;
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
