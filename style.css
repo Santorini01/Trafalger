@@ -128,7 +128,7 @@ button:hover {
   width: 160px;
   height: 40px;
 }
-.learn {
+.learnmorebtn button {
   width: 160px;
   height: 40px;
   border: solid 1px #458ff6;
@@ -212,8 +212,8 @@ button:hover {
 }
 
 .feedback {
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
   width: 100%;
   padding: 3rem;
 }
@@ -223,7 +223,7 @@ button:hover {
   color: white;
   padding-top: 35px;
   font-size: 36px;
-font-style: normal;
+  font-style: normal;
 }
 
 .feedbacktxt hr {
@@ -237,50 +237,171 @@ font-style: normal;
 .feedbackimgsay {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem ;
+  padding-top: 3rem;
   padding: 0 3rem;
   margin-top: 3rem;
 }
 .feedbackdedication {
   width: 30%;
 }
-.feedbackimg{
-    margin-left: 4rem;
-    margin-bottom: 4rem;
+.feedbackimg {
+  margin-left: 4rem;
+  margin-bottom: 4rem;
 }
-.feedbacktxtcontainer{
-    display: flex;
-    /* justify-content: space-between; */
+.feedbacktxtcontainer {
+  display: flex;
+  /* justify-content: space-between; */
 }
-.feedbackname{
-    padding-left: 1.5rem;
-    padding-top: 2.5rem;
+.feedbackname {
+  padding-left: 1.5rem;
+  padding-top: 2.5rem;
   line-height: 0;
 }
-.feedbackdedication{
-    width: 40%;
+.feedbackdedication {
+  width: 40%;
 }
-.feedbackdedication{
-    font-family: Mulish;
-    color: white;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    
+.feedbackdedication {
+  font-family: Mulish;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.feedbackname h3{
-    color: white;
-    font-family: Mulish;
-font-size: 22px;
-font-style: normal;
-line-height: 10px;
+.feedbackname h3 {
+  color: white;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 10px;
 }
-.feedbackname p{
- color: rgba(255, 255, 255, 0.85);
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
 
+.feedbackname p {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+}
+.article {
+  justify-content: space-between;
+}
+.toparticle {
+  text-align: center;
+}
+
+.toparticle h3 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  background: #000000;
+}
+.toparticle hr {
+  width: 56px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #000;
+}
+
+.articleimg {
+  width: 350px;
+  height: 246px;
+  /* background-image: url(./images/Mask\ Group.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.articletxt {
+  width: 350px;
+  border-radius: 0px 0px 20px 20px;
+  background: #fff;
+
+  /* drop shadow */
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  /* padding: 1rem 2rem; */
+}
+.articletxt h5 {
+  color: #000;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 152.381% */
+  width: 80%;
+  padding-left: 2rem;
+  /* margin: auto; */
+}
+.articletxt button {
+  color: #4089ed;
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 164.706% */
+  border: none;
+  background: #fff;
+  margin-left: 2rem;
+}
+.articletxt p {
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  width: 80;
+  padding-left: 2rem;
+}
+
+.articlecards {
+  display: flex;
+}
+.articlebtn {
+  text-align: center;
+  margin-top: 4rem;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.article {
+  margin-top: 10rem;
+}
+.articlecards {
+  padding-top: 3rem;
+}
+.articletxt button {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.article {
+  /* position: relative; */
+}
+.articlecards {
+  gap: 2rem;
+  position: relative;
+}
+.articlebutton {
+  margin: auto;
+  width: 160px;
+  height: 40px;
+}
+.articlebutton button {
+  width: 160px;
+  height: 40px;
+  border: solid 1px #458ff6;
+  color: #458ff6;
+  margin-top: 5em;
+  border-radius: 20px;
+}
+.artclbackground img {
+  position: absolute;
+  z-index: -1;
+  /* margin-top: -32rem; */
+  right: 0;
+  margin-top: -4em;
+}
+.artclbackground{
+  margin-bottom: 6rem;
 }
