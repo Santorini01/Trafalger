@@ -79,6 +79,9 @@ button:hover {
 
 /* SERVICES  */
 .Services {
+  /* position: relative; */
+}
+.allcardz{
   position: relative;
 }
 
@@ -100,6 +103,7 @@ button:hover {
   margin: auto;
   margin-top: 5rem;
   width: 90%;
+  /* position: relative; */
 }
 .cardB {
   display: flex;
@@ -117,6 +121,7 @@ button:hover {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #7d7987;
+  background-color: #fff;
 }
 .cardtext h3 {
   color: #1f1534;
@@ -137,11 +142,12 @@ button:hover {
   border-radius: 20px;
 }
 
-.background img {
-  position: absolute;
+
+.background img{
   z-index: -1;
-  margin-left: -9rem;
-  margin-top: 8rem;
+  position: absolute;
+  margin-left: -7rem;
+  margin-top: -3rem;
 }
 
 .healthcare {
@@ -402,6 +408,66 @@ button:hover {
   right: 0;
   margin-top: -4em;
 }
-.artclbackground{
+.artclbackground {
   margin-bottom: 6rem;
+}
+
+/* <!-- >--------------------footer------------------< --> */
+
+.footer {
+  width: 100%;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  margin-top: 15rem;
+}
+.footertxts {
+  width: 80%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* height: 300%; */
+  padding-bottom: 4rem;
+  /* padding-left: 10rem; */
+  margin: auto;
+}
+.firsttxt {
+  width: 40%;
+  text-align: left;
+}
+.firsttxt p {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+}
+.secondtxt {
+  /* width: 10%; */
+}
+.secondtxt h3 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 300% */
+  padding-left: 2em;
+}
+.secondtxt li {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+}
+.topfooterelement{
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+.topfooterelement img{
+  margin-top: -5em;
+  padding-right: 3.5em;
 }
